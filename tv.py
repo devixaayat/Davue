@@ -69,26 +69,17 @@ def make_request(url, headers, cookies):
 clear_screen()
 
 logo ="""
- 
+ \033[1;35m 
                    
-\033[1;35mRRRRRRRRRRRRRRRRR   EEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBB   EEEEEEEEEEEEEEEEEEEEEELLLLLLLLLLL                SSSSSSSSSSSSSSS 
-\033[1;45mR::::::::::::::::R  E::::::::::::::::::::EB::::::::::::::::B  E::::::::::::::::::::EL:::::::::L              SS:::::::::::::::S
-\033[1;36mR::::::RRRRRR:::::R E::::::::::::::::::::EB::::::BBBBBB:::::B E::::::::::::::::::::EL:::::::::L             S:::::SSSSSS::::::S
-\033[1;37mRR:::::R     R:::::REE::::::EEEEEEEEE::::EBB:::::B     B:::::BEE::::::EEEEEEEEE::::ELL:::::::LL             S:::::S     SSSSSSS
- \033[1;34m R::::R     R:::::R  E:::::E       EEEEEE  B::::B     B:::::B  E:::::E       EEEEEE  L:::::L               S:::::S            
-  \033[1;33mR::::R     R:::::R  E:::::E               B::::B     B:::::B  E:::::E               L:::::L               S:::::S            
-  \033[1;32mR::::RRRRRR:::::R   E::::::EEEEEEEEEE     B::::BBBBBB:::::B   E::::::EEEEEEEEEE     L:::::L                S::::SSSS         
-  \033[1;31mR:::::::::::::RR    E:::::::::::::::E     B:::::::::::::BB    E:::::::::::::::E     L:::::L                 SS::::::SSSSS    
-  \033[1;39mR::::RRRRRR:::::R   E:::::::::::::::E     B::::BBBBBB:::::B   E:::::::::::::::E     L:::::L                   SSS::::::::SS  
-  \033[1;35mR::::R     R:::::R  E::::::EEEEEEEEEE     B::::B     B:::::B  E::::::EEEEEEEEEE     L:::::L                      SSSSSS::::S 
-  \033[1;38mR::::R     R:::::R  E:::::E               B::::B     B:::::B  E:::::E               L:::::L                           S:::::S
-  \033[1;42mR::::R     R:::::R  E:::::E       EEEEEE  B::::B     B:::::B  E:::::E       EEEEEE  L:::::L         LLLLLL            S:::::S
-\033[1;39mRR:::::R     R:::::REE::::::EEEEEEEE:::::EBB:::::BBBBBB::::::BEE::::::EEEEEEEE:::::ELL:::::::LLLLLLLLL:::::LSSSSSSS     S:::::S
-\033[1;33mR::::::R     R:::::RE::::::::::::::::::::EB:::::::::::::::::B E::::::::::::::::::::EL::::::::::::::::::::::LS::::::SSSSSS:::::S
-\033[1;45mR::::::R     R:::::RE::::::::::::::::::::EB::::::::::::::::B  E::::::::::::::::::::EL::::::::::::::::::::::LS:::::::::::::::SS 
-\033[1;48mRRRRRRRR     RRRRRRREEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBB   EEEEEEEEEEEEEEEEEEEEEELLLLLLLLLLLLLLLLLLLLLLLL SSSSSSSSSSSSSSS   
-                                                                                                                               
 
+██████╗ ███████╗██████╗ ███████╗██╗     ███████╗
+██╔══██╗██╔════╝██╔══██╗██╔════╝██║     ██╔════╝
+██████╔╝█████╗  ██████╔╝█████╗  ██║     ███████╗
+██╔══██╗██╔══╝  ██╔══██╗██╔══╝  ██║     ╚════██║
+██║  ██║███████╗██████╔╝███████╗███████╗███████║
+╚═╝  ╚═╝╚══════╝╚═════╝ ╚══════╝╚══════╝╚══════╝
+
+                                                
         
                                                                                                                                
  \x1b[1;33m════════════════════════════════════════════════════════
